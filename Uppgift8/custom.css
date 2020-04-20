@@ -1,0 +1,45 @@
+﻿body {
+    margin-top: 100px;
+}
+
+.coffe-machine-img {
+    width: 50%;
+}
+
+.coffe-machine .price button {
+   margin-top: 30px;
+   font-size: 10px;
+}
+
+.company, .people {
+    border: 1px solid #333;
+    border-radius: 10px;
+    padding: 20px;
+     
+}
+
+.about {
+    border: 1px #333 solid;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.vd, .hr {
+    width: 30%;
+}
+
+.company span, .people span {
+    margin-bottom: 20px;
+    display: inline-block;
+}
+
+@media(max-width:768px) {
+    .company, .people{
+        margin-top: 10px;
+    }
+
+    .card {
+        margin-top: 10px;
+    
+    }
+}
